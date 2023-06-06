@@ -1,0 +1,306 @@
+[
+  {
+    "id": "index.tsx",
+    "parentIds": []
+  },
+  {
+    "id": "lookupCompanyLang",
+    "parentIds": ["index.tsx"]
+  },
+  {
+    "id": "api/open/lookup",
+    "parentIds": ["lookupCompanyLang"]
+  },
+  {
+    "id": "SET_COMPANY_LANG",
+    "parentIds": ["lookupCompanyLang"]
+  },
+  {
+    "id": "App.tsx",
+    "parentIds": ["index.tsx"]
+  },
+  {
+    "id": "PrivateRoute",
+    "parentIds": ["App.tsx"]
+  },
+  {
+    "id": "checkIfUsersRefreshIsNeeded",
+    "parentIds": ["PrivateRoute"]
+  },
+  {
+    "id": "setUserInfo",
+    "parentIds": ["checkIfUsersRefreshIsNeeded"]
+  },
+  {
+    "id": "api/users/users",
+    "parentIds": ["setUserInfo"]
+  },
+  {
+    "id": "SET_USER_INFO",
+    "parentIds": ["setUserInfo"]
+  },
+  {
+    "id": "checkIfResourcesRefreshIsNeeded",
+    "parentIds": ["PrivateRoute"]
+  },
+  {
+    "id": "fetchResourceUpdate",
+    "parentIds": ["checkIfResourcesRefreshIsNeeded"]
+  },
+  {
+    "id": "contactConfigs",
+    "parentIds": ["fetchResourceUpdate"]
+  },
+  {
+    "id": "api/contact/configs",
+    "parentIds": ["contactConfigs"]
+  },
+  {
+    "id": "SET_CONFIGS",
+    "parentIds": ["contactConfigs"]
+  },
+  {
+    "id": "departments",
+    "parentIds": ["fetchResourceUpdate"]
+  },
+  {
+    "id": "api/departments/departments",
+    "parentIds": ["departments"]
+  },
+  {
+    "id": "setDepartments",
+    "parentIds": ["departments"]
+  },
+  {
+    "id": "hiringData",
+    "parentIds": ["fetchResourceUpdate"]
+  },
+  {
+    "id": "api/users/hiringData",
+    "parentIds": ["hiringData"]
+  },
+  {
+    "id": "setHiringData",
+    "parentIds": ["hiringData"]
+  },
+  {
+    "id": "wagePremiums",
+    "parentIds": ["fetchResourceUpdate"]
+  },
+  {
+    "id": "api/pay/wagePremiums",
+    "parentIds": ["wagePremiums"]
+  },
+  {
+    "id": "SET_WAGE_PREMIUMS",
+    "parentIds": ["wagePremiums"]
+  },
+  {
+    "id": "permissions",
+    "parentIds": ["fetchResourceUpdate"]
+  },
+  {
+    "id": "api/permissions/permissions",
+    "parentIds": ["permissions"]
+  },
+  {
+    "id": "SET_PERMISSIONS",
+    "parentIds": ["permissions"]
+  },
+  {
+    "id": "projects",
+    "parentIds": ["fetchResourceUpdate"]
+  },
+  {
+    "id": "api/projects/projects",
+    "parentIds": ["projects"]
+  },
+  {
+    "id": "SET_PROJECTS",
+    "parentIds": ["projects"]
+  },
+  {
+    "id": "projectOwners",
+    "parentIds": ["fetchResourceUpdate"]
+  },
+  {
+    "id": "api/projects/owners",
+    "parentIds": ["projectOwners"]
+  },
+  {
+    "id": "SET_PROJECT_OWNERS",
+    "parentIds": ["projectOwners"]
+  },
+  {
+    "id": "punchRules",
+    "parentIds": ["fetchResourceUpdate"]
+  },
+  {
+    "id": "api/punch/rules",
+    "parentIds": ["punchRules"]
+  },
+  {
+    "id": "SET_PUNCH_RULES",
+    "parentIds": ["punchRules"]
+  },
+  {
+    "id": "requestFields",
+    "parentIds": ["fetchResourceUpdate"]
+  },
+  {
+    "id": "api/requests/fields",
+    "parentIds": ["requestFields"]
+  },
+  {
+    "id": "setRequestFields",
+    "parentIds": ["requestFields"]
+  },
+  {
+    "id": "scheduleTypes",
+    "parentIds": ["fetchResourceUpdate"]
+  },
+  {
+    "id": "api/schedule/types",
+    "parentIds": ["scheduleTypes"]
+  },
+  {
+    "id": "SET_SCHEDULE_TYPES",
+    "parentIds": ["scheduleTypes"]
+  },
+  {
+    "id": "scheduleTemplates",
+    "parentIds": ["fetchResourceUpdate"]
+  },
+  {
+    "id": "api/schedule/template",
+    "parentIds": ["scheduleTemplates"]
+  },
+  {
+    "id": "SET_SCHEDULE_TEMPLATES",
+    "parentIds": ["scheduleTemplates"]
+  },
+  {
+    "id": "structures",
+    "parentIds": ["fetchResourceUpdate"]
+  },
+  {
+    "id": "api/structure/structure",
+    "parentIds": ["structures"]
+  },
+  {
+    "id": "setStructures",
+    "parentIds": ["structures"]
+  },
+  {
+    "id": "tags",
+    "parentIds": ["fetchResourceUpdate"]
+  },
+  {
+    "id": "api/tags/tags",
+    "parentIds": ["tags"]
+  },
+  {
+    "id": "setTags",
+    "parentIds": ["tags"]
+  },
+  {
+    "id": "teams",
+    "parentIds": ["fetchResourceUpdate"]
+  },
+  {
+    "id": "api/teams/teams",
+    "parentIds": ["teams"]
+  },
+  {
+    "id": "SET_TEAMS",
+    "parentIds": ["teams"]
+  },
+  {
+    "id": "holidays",
+    "parentIds": ["fetchResourceUpdate"]
+  },
+  {
+    "id": "api/holidays/holidays",
+    "parentIds": ["holidays"]
+  },
+  {
+    "id": "SET_HOLIDAYS",
+    "parentIds": ["holidays"]
+  },
+  {
+    "id": "userFilters",
+    "parentIds": ["fetchResourceUpdate"]
+  },
+  {
+    "id": "api/`users/filters",
+    "parentIds": ["userFilters"]
+  },
+  {
+    "id": "SET_FILTERS",
+    "parentIds": ["userFilters"]
+  },
+  {
+    "id": "userProcedures",
+    "parentIds": ["fetchResourceUpdate"]
+  },
+  {
+    "id": "api/users/procedures",
+    "parentIds": ["userProcedures"]
+  },
+  {
+    "id": "SET_PROCEDURES",
+    "parentIds": ["userProcedures"]
+  },
+  {
+    "id": "userSorts",
+    "parentIds": ["fetchResourceUpdate"]
+  },
+  {
+    "id": "api/users/sorts",
+    "parentIds": ["userSorts"]
+  },
+  {
+    "id": "SET_SORTS",
+    "parentIds": ["userSorts"]
+  },
+  {
+    "id": "users",
+    "parentIds": ["fetchResourceUpdate"]
+  },
+  {
+    "id": "api/users/users?showArchived=true",
+    "parentIds": ["users"]
+  },
+  {
+    "id": "setUsers",
+    "parentIds": ["users"]
+  },
+  {
+    "id": "userTemplates",
+    "parentIds": ["fetchResourceUpdate"]
+  },
+  {
+    "id": "api/users/templates",
+    "parentIds": ["userTemplates"]
+  },
+  {
+    "id": "SET_USER_TEMPLATES",
+    "parentIds": ["userTemplates"]
+  },
+  {
+    "id": "contactTemplates",
+    "parentIds": ["fetchResourceUpdate"]
+  },
+  {
+    "id": "api/contact/templates",
+    "parentIds": ["contactTemplates"]
+  },
+  {
+    "id": "SET_CONTACT_TEMPLATES",
+    "parentIds": ["contactTemplates"]
+  },
+  {
+    "id": "Schedule",
+    "parentIds": ["PrivateRoute"]
+  }
+]

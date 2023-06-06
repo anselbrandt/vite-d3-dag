@@ -1,0 +1,23 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 5px;
+
+  color-scheme: light dark;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+.tooltip {
+  font-size: large;
+  color: gray;
+  position: absolute;
+  pointer-events: none;
+  background-color: whitesmoke;
+  padding: 1em;
+  border-radius: 5px;
+  border: 1px solid gainsboro;
+}

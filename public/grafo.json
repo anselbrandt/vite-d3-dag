@@ -1,0 +1,112 @@
+[
+  {
+    "id": "0",
+    "label": "zero",
+    "parentIds": ["8"]
+  },
+  {
+    "id": "1",
+    "label": "one",
+    "parentIds": []
+  },
+  {
+    "id": "2",
+    "label": "two",
+    "parentIds": []
+  },
+  {
+    "id": "3",
+    "label": "three",
+    "parentIds": ["11"]
+  },
+  {
+    "id": "4",
+    "label": "four",
+    "parentIds": ["12"]
+  },
+  {
+    "id": "5",
+    "label": "five",
+    "parentIds": ["18"]
+  },
+  {
+    "id": "6",
+    "label": "six",
+    "parentIds": ["9", "15", "17"]
+  },
+  {
+    "id": "7",
+    "label": "seven",
+    "parentIds": ["3", "17", "20", "21"]
+  },
+  {
+    "id": "8",
+    "label": "eight",
+    "parentIds": []
+  },
+  {
+    "id": "9",
+    "label": "nine",
+    "parentIds": ["4"]
+  },
+  {
+    "id": "10",
+    "label": "ten",
+    "parentIds": ["16", "21"]
+  },
+  {
+    "id": "11",
+    "label": "eleven",
+    "parentIds": ["2"]
+  },
+  {
+    "id": "12",
+    "label": "twelve",
+    "parentIds": ["21"]
+  },
+  {
+    "id": "13",
+    "label": "thirteen",
+    "parentIds": ["4", "12"]
+  },
+  {
+    "id": "14",
+    "label": "fourteen",
+    "parentIds": ["1", "8"]
+  },
+  {
+    "id": "15",
+    "label": "fifteen",
+    "parentIds": []
+  },
+  {
+    "id": "16",
+    "label": "sixteen",
+    "parentIds": ["0"]
+  },
+  {
+    "id": "17",
+    "label": "seventeen",
+    "parentIds": ["19"]
+  },
+  {
+    "id": "18",
+    "label": "eighteen",
+    "parentIds": ["9"]
+  },
+  {
+    "id": "19",
+    "label": "nineteen",
+    "parentIds": []
+  },
+  {
+    "id": "20",
+    "label": "twenty",
+    "parentIds": ["13"]
+  },
+  {
+    "id": "21",
+    "label": "twenty-one",
+    "parentIds": []
+  }
+]
